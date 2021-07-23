@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 80px;
+  background: linear-gradient(90deg, rgba(0, 13, 47, 0.946237) 0%, #071A4A 51.56%, #000D2F 100%);
+}
+
+.nav-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #c6d6ff;
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+li {
+  list-style: none; 
+  margin-left: 24px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  transition: 0.5s;
+  color: #577fe2;
+}
